@@ -10,7 +10,7 @@
 
 
   <nav class="flex justify-between items-center p-4 bg-[#141217] text-white shadow-md">
-    <a href="dashboard.html" class="flex space-x-4 text-white font-bold text-xl">UniVan</a>
+    <a href="index.html" class="flex space-x-4 text-white font-bold text-xl">UniVan</a>
   </nav>
 
   
@@ -51,6 +51,61 @@
           name="license"
           class="p-3 w-full bg-[#2a2638] text-white border border-gray-600 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
         />
+
+               <label for="full-name" class="block text-sm font-medium text-gray-300">Full Name</label>
+       <input
+        type="text"
+        id="full-name"
+        name="full-name"
+        required
+        class="p-3 w-full bg-[#2a2638] text-white border border-gray-600 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
+       />
+
+      <label for="age" class="block text-sm font-medium text-gray-300">Age</label>
+       <input
+        type="number"
+        id="age"
+        name="age"
+        required
+        min="18"
+        max="100"
+        class="p-3 w-full bg-[#2a2638] text-white border border-gray-600 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
+       />
+
+              <label for="email" class="block text-sm font-medium text-gray-300">Email</label>
+       <input
+        type="email"
+        id="email"
+        name="email"
+        required
+        class="p-3 w-full bg-[#2a2638] text-white border border-gray-600 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
+       />
+
+              <label for="phone" class="block text-sm font-medium text-gray-300">Phone</label>
+       <input
+        type="tel"
+        id="phone"
+        name="phone"
+        required
+        class="p-3 w-full bg-[#2a2638] text-white border border-gray-600 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
+       />
+
+       <label for="password" class="block text-sm font-medium text-gray-300">Password</label>
+       <input
+        type="password"
+        id="password"
+        name="password"
+        required
+        class="p-3 w-full bg-[#2a2638] text-white border border-gray-600 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
+       />
+
+        <button
+        type="submit"
+        class="w-full bg-purple-700 hover:bg-purple-800 text-white font-semibold py-3 rounded-xl shadow-lg transition transform hover:scale-105 mt-4"
+       >
+        Sign Up
+        </button>
+
       </div>
 
       <div id="universitario-fields" class="hidden flex flex-col gap-4">
@@ -61,19 +116,28 @@
           name="career"
           class="p-3 w-full bg-[#2a2638] text-white border border-gray-600 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
         />
-      </div>
+      
 
-      <label for="full-name" class="block text-sm font-medium text-gray-300">Full Name</label>
-      <input
+        <label for="Univerity" class="block text-sm font-medium text-gray-300">Univerity</label>
+        <input
+          type="text"
+          id="Univerity"
+          name="Univerity"
+          class="p-3 w-full bg-[#2a2638] text-white border border-gray-600 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
+        />
+      
+
+       <label for="full-name" class="block text-sm font-medium text-gray-300">Full Name</label>
+       <input
         type="text"
         id="full-name"
         name="full-name"
         required
         class="p-3 w-full bg-[#2a2638] text-white border border-gray-600 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
-      />
+       />
 
-      <label for="age" class="block text-sm font-medium text-gray-300">Age</label>
-      <input
+       <label for="age" class="block text-sm font-medium text-gray-300">Age</label>
+       <input
         type="number"
         id="age"
         name="age"
@@ -81,42 +145,45 @@
         min="18"
         max="100"
         class="p-3 w-full bg-[#2a2638] text-white border border-gray-600 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
-      />
+       />
 
-      <label for="email" class="block text-sm font-medium text-gray-300">Email</label>
-      <input
+       <label for="email" class="block text-sm font-medium text-gray-300">Email</label>
+       <input
         type="email"
         id="email"
         name="email"
         required
         class="p-3 w-full bg-[#2a2638] text-white border border-gray-600 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
-      />
+       />
 
-      <label for="phone" class="block text-sm font-medium text-gray-300">Phone</label>
-      <input
+       <label for="phone" class="block text-sm font-medium text-gray-300">Phone</label>
+       <input
         type="tel"
         id="phone"
         name="phone"
         required
         class="p-3 w-full bg-[#2a2638] text-white border border-gray-600 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
-      />
+       />
 
-      <label for="password" class="block text-sm font-medium text-gray-300">Password</label>
-      <input
+       <label for="password" class="block text-sm font-medium text-gray-300">Password</label>
+       <input
         type="password"
         id="password"
         name="password"
         required
         class="p-3 w-full bg-[#2a2638] text-white border border-gray-600 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
-      />
+       />
 
-      <button
+
+       <button
         type="submit"
         class="w-full bg-purple-700 hover:bg-purple-800 text-white font-semibold py-3 rounded-xl shadow-lg transition transform hover:scale-105 mt-4"
-      >
+       >
         Sign Up
-      </button>
-    </form>
+        </button>
+       </form>
+
+      </div>
 
     <p class="text-center text-white/60 text-sm mt-6">
       Already have an account? 
