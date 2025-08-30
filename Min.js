@@ -13,7 +13,6 @@ document.addEventListener("keyup", e =>{
 console.log(e.target.value)
 })
 
-
  const filas = ['A', 'B', 'C', 'D'];
     const columnas = ['1', '2', '3', '4'];
     const bus = document.getElementById("bus");
