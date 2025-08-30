@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Reservations</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+<body class="bg-gradient-to-br from-[#302938] via-[#2a2432] to-[#1f1a26] text-[#FFFFFF] font-sans min-h-screen">
+  <div class="flex min-h-screen">  
+  <div class="flex min-h-screen"> 
+  <aside class="w-64 bg-[#1A122A] p-6 shadow-lg">
+      <h2 class="text-2xl font-bold text-white-400 mb-8">UniVan</h2>
+      <nav class="space-y-4 text-lg text-gray-300">
+        <a href="Estudiante.html" class="block hover:text-white-400 transition">Home</a>
+
+        <a href="#" class="block hover:text-white-400 transition">Trips</a>
+
+        <a href="Vehicles.html" class="block hover:text-white.400 transition">Vehicles</a>
+
+        <a href="#" class="block hover:text-white-400 transition">Drivers</a>
+
+        <a href="#" class="block hover:text-white-400 transition">My reservations</a>
+                <a href="#" class="block hover:text-white-400 transition">Support</a>
+      </nav>
+    </aside>
+ 
+ 
+ 
+    <div class="flex-1 p-8 bg-[#1A122A] ">
+ 
+    <!-- Main content -->
+    <main class="flex-1 p-8">
+     
+      
+
+      <!-- Search Section-->
+<div class="mb-6 relative">
+  <input
+    type="text"
+    id="searchInput"
+    placeholder="Search by route ID or driver.."
+    class="w-full pl-10 pr-4 py-2 rounded-lg bg-[#342854] text-white placeholder-[#AB9EBA] border border-[#AB9EBA] focus:outline-none focus:ring-2 focus:ring-[#AB9EBA] transition search-glow"/>
+  <i class="fas fa-search absolute left-3 top-1/2 transform -translate-y-1/2 text-[#AB9EBA] pointer-events-none"></i>
+  
+  
+</div>
+
+
+      <!-- Tabla -->
+      <div class="overflow-x-auto rounded-lg border border-[#AB9EBA]">
+        <table class="min-w-full text-sm text-left text-[#E5E8EB]">
+          <thead class="uppercase text-[#AB9EBA] border-b border-[#AB9EBA] bg-[#342854]">
+            <tr>
+              <th class="px-6 py-4">Trip ID</th>
+              <th class="px-6 py-4">Date & Time</th>
+              <th class="px-6 py-4">Route</th>
+              <th class="px-6 py-4">Driver</th>
+              <th class="px-6 py-4">Passengers</th>
+              <th class="px-6 py-4">Status</th>
+              <th class="px-6 py-4">Feedback</th>
+            </tr>
+          </thead>
+
+          <!--contenedor de tr-->
+          <tbody>
+            
+            <tr class="cursor-pointer border-b border-[#AB9EBA] hover:bg-[#3f3648]">
+                <td>
+                     </a>
+           <a href="sistema.html" class="sidebar-link flex items-center space-x-3 p-3 rounded-lg">
+          <i class="fas fa-route w-5"></i>
+          <span>Seats</span>
+        </a>
+                </td>
+              <td class="px-6 py-4 font-semibold">#12345</td>
+              <td class="px-6 py-4">Oct 26, 2025, 10:00 PM</td>
+              <td class="px-6 py-4">UCA</td>
+              <td class="px-6 py-4">Stive</td>
+              <td class="px-6 py-4">11</td>
+              <td class="px-6 py-4">
+                <span class="bg-green-600 text-white px-3 py-1 rounded-full text-xs">Completed</span>
+              </td>
+              <td class="px-6 py-4">
+                <a href="#" class="text-[#AB9EBA] underline">View</a>
+              </td>
+            </tr>
+
+            <tr class="border-b border-[#AB9EBA] hover:bg-[#3f3648]">
+                <td>
+                     </a>
+           <a href="sistema.html" class="sidebar-link flex items-center space-x-3 p-3 rounded-lg">
+          <i class="fas fa-route w-5"></i>
+          <span>Seats</span>
+        </a>
+                </td>
+              <td class="px-6 py-4 font-semibold">#12346</td>
+              <td class="px-6 py-4">Oct 27, 2025, 11:00 PM</td>
+              <td class="px-6 py-4">Universidad Francisco Gavidia</td>
+              <td class="px-6 py-4">Stive</td>
+              <td class="px-6 py-4">14</td>
+              <td class="px-6 py-4">
+                <span class="bg-green-600 text-white px-3 py-1 rounded-full text-xs">Completed</span>
+              </td>
+
+              <td class="px-6 py-4">
+                <a href="#" class="text-[#AB9EBA] underline">View</a>
+              </td>
+            </tr>
+
+            <tr class="border-b border-[#AB9EBA] hover:bg-[#3f3648]">
+                <td>
+                     </a>
+           <a href="sistema.html" class="sidebar-link flex items-center space-x-3 p-3 rounded-lg">
+          <i class="fas fa-route w-5"></i>
+          <span>Seats</span>
+        </a>
+                </td>
+
+              <td class="px-6 py-4 font-semibold">#12347</td>
+              <td class="px-6 py-4">Oct 28, 2025, 9:30 PM</td>
+              <td class="px-6 py-4">Universidad Tecnológica de El Salvador</td>
+              <td class="px-6 py-4">Stive</td>
+              <td class="px-6 py-4">9</td>
+              <td class="px-6 py-4">
+                <span class="bg-green-600 text-white px-3 py-1 rounded-full text-xs">Completed</span>
+              </td>
+              <td class="px-6 py-4">
+                <a href="#" class="text-[#AB9EBA] underline">View</a>
+              </td>
+            </tr>
+
+        
+
+            <tr class="border-b border-[#AB9EBA] hover:bg-[#3f3648]">
+                <td>
+                     </a>
+           <a href="sistema.html" class="sidebar-link flex items-center space-x-3 p-3 rounded-lg">
+          <i class="fas fa-route w-5"></i>
+          <span>Seats</span>
+        </a>
+                </td>
+              <td class="px-6 py-4 font-semibold">#12348</td>
+              <td class="px-6 py-4">Oct 29, 2025, 10:30 PM</td>
+              <td class="px-6 py-4">UTEC</td>
+              <td class="px-6 py-4">Stive</td>
+              <td class="px-6 py-4">10</td>
+              <td class="px-6 py-4">
+                <span class="bg-yellow-600 text-white px-3 py-1 rounded-full text-xs">Scheduled</span>
+              </td>
+              <td class="px-6 py-4">
+                <a href="#" class="text-[#AB9EBA] underline">View</a>
+              </td>
+            </tr>
+
+            <tr class="hover:bg-[#3f3648]">
+                    <td>
+                          <a href="sistema.html" class="sidebar-link flex items-center space-x-3 p-3 rounded-lg">
+          <i class="fas fa-route w-5"></i>
+          <span>Seats</span>
+        </a>
+                    </td>
+         
+              <td class="px-6 py-4 font-semibold">#12349</td>
+              <td class="px-6 py-4">Oct 30, 2025, 11:30 PM</td>
+              <td class="px-6 py-4">Universidad de El Salvador</td>
+              <td class="px-6 py-4">Stive</td>
+              <td class="px-6 py-4">3</td>
+              <td class="px-6 py-4">
+                <span class="bg-yellow-600 text-white px-3 py-1 rounded-full text-xs">Scheduled</span>
+              </td>
+              <td class="px-6 py-4">
+                <a href="#" class="text-[#AB9EBA] underline">View</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </main>
+  </div>
+  <script src="Min.js"></script>
+
+</body>
+</html>
+
+ 
+
+  
